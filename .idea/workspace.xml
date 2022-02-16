@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="incluidos ficheiros para Heroku, Site report.html">
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="criei a pagina report.html">
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <workItem from="1645000973662" duration="10000" />
       <workItem from="1645000985588" duration="2858000" />
       <workItem from="1645003886441" duration="925000" />
-      <workItem from="1645018422149" duration="3615000" />
+      <workItem from="1645018422149" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -130,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645021751092</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="incluidos ficheiros para Heroku, Site report.html">
+      <created>1645022188974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645022188974</updated>
+    </task>
+    <task id="LOCAL-00010" summary="incluidos ficheiros para Heroku, Site report.html">
+      <created>1645022198770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645022198770</updated>
+    </task>
+    <task id="LOCAL-00011" summary="criei a pagina report.html">
+      <created>1645022430115</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645022430115</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +172,7 @@
     <MESSAGE value="Primeira pagina" />
     <MESSAGE value="incluidos ficheiros para Heroku" />
     <MESSAGE value="incluidos ficheiros para Heroku, Site report.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="incluidos ficheiros para Heroku, Site report.html" />
+    <MESSAGE value="criei a pagina report.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="criei a pagina report.html" />
   </component>
 </project>
