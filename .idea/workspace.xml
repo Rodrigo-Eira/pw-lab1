@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="criei a pagina report.html" />
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="criei a pagina report.html">
+      <change afterPath="$PROJECT_DIR$/lab1/images/HeadersImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/HeadersSite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/InfoFicheiros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/PreviewImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/PreviewSite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/TimingImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/TimingSite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/caminho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/local.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/images/wordcloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/images/Flag-of-Italy.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/images/vista-cidade-de-Roma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/local.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/multimedia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HeadersImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HeadersSite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/InfoFicheiros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PreviewImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PreviewSite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/TimingImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/TimingSite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wordcloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,16 +52,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25BWF02xwjMQj0uH1FKchuHoepy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab2\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -72,6 +110,8 @@
       <workItem from="1645003886441" duration="925000" />
       <workItem from="1645018422149" duration="4223000" />
       <workItem from="1645287279750" duration="1279000" />
+      <workItem from="1645605324010" duration="6143000" />
+      <workItem from="1645657043824" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -203,6 +243,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primeira pagina" />
     <MESSAGE value="incluidos ficheiros para Heroku" />
     <MESSAGE value="incluidos ficheiros para Heroku, Site report.html" />
