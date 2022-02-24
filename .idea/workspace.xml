@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="criei a pagina report.html">
-      <change afterPath="$PROJECT_DIR$/lab2/images/wordcloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/images/Trevi-Brunnen_abends_pequena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/images/roma_grande.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/images/roma_pequena.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/images/wordcloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/images/wordcloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/local.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/local.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/multimedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/multimedia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,8 @@
       <workItem from="1645287279750" duration="1279000" />
       <workItem from="1645605324010" duration="6143000" />
       <workItem from="1645657043824" duration="1258000" />
-      <workItem from="1645711426772" duration="2019000" />
+      <workItem from="1645711426772" duration="3575000" />
+      <workItem from="1645719646787" duration="3703000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645288557247</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="criei a pagina report.html">
+      <created>1645713744364</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645713744364</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
