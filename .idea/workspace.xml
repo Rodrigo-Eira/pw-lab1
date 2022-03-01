@@ -9,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -86,6 +87,7 @@
       <workItem from="1645719646787" duration="5022000" />
       <workItem from="1645793229798" duration="5099000" />
       <workItem from="1646156169452" duration="200000" />
+      <workItem from="1646156409316" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -241,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646156361367</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lab2">
+      <created>1646156425240</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1646156425240</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
