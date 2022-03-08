@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roma</title>
+    <meta nome="author" content="Rodrigo Eira">
+    <meta name="keywords" content="palavras chave">
+    <meta name="description" content="Website sobre Roma">
+    <link rel="shorcut icon" type="image/italy-icon" href="images/Flag-of-Italy.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Site sobre Roma<img src="images/logo.png" width="40" height="40"></h1>
+</header>
+<h1>Roma</h1>
+<img src="images/vista-cidade-de-Roma.jpg" target="_blank">
+<br>
+<nav>
+    <a href="index.html"><i class="material-icons" style="font-size: 16px">public</i> Introdução</a>|
+    <a href="local.html"><i class='fas fa-map-marker-alt'></i> Localização</a>|
+    <a href="multimedia.html"><i class="material-icons" style="font-size: 16px">perm_media</i> Multimédia</a>|
+    <a href="info.html"><i class="material-icons" style="font-size: 16px">info</i> Informações</a>|
+    <a href="../index.html"><i class="material-icons" style="font-size: 16px">home</i> Home</a>|
+    <a href="quizz.html"><i class="material-icons" style="font-size: 16px">assignment</i><b> Quizz</b></a>|
+    <a href="html5-css.html"><i class="material-icons" style="font-size: 16px">code</i> HTML5 & CSS</a>
+</nav>
+<main>
+    <h3>Quizz</h3>
+    <p>Este Quizz tem como objetivo testar os conhecimentos do utilizador sobre a cidade de Roma</p>
+    <form method="POST" action="mailto: baiaeira@gmail.com" enctype="multipart/form-data">
+        <fieldset>Quizz sobre Roma</fieldset>
+        <fieldset  id="quiz fieldset1">
+            <legend>Perguntas</legend>
+            <p>A que continente pertence Roma?</p>
+            <input type="text" name="pergunta1" autocomplete="off" placeholder="África/Europa/América do Norte/Ásia..."
+                   maxlength="20">
+
+            <p>Atualmente, qual o idioma mais dominante em Roma?</p>
+            <input type="radio" name="pergunta2"><label>Italiano</label>
+            <input type="radio" name="pergunta2"><label>Francês</label>
+            <input type="radio" name="pergunta2"><label>Mandarim</label>
+            <input type="radio" name="pergunta2"><label>Português</label>
+
+            <p>Quais destes rios atravessam Roma?</p>
+            <input type="checkbox" name="pergunta3"><label>Rio Aniene</label>
+            <input type="checkbox" name="pergunta3"><label>Rio Nera</label>
+            <input type="checkbox" name="pergunta3"><label>Rio Tibre</label>
+            <input type="checkbox" name="pergunta3"><label>Rio de Roma</label>
+
+            <p>Qual a data de nascimento do presidente de Roma?</p>
+            <input type="date" name="pergunta4" max="00/00/0000">
+
+            <p>Qual é a bandeira de Roma (anexe uma imagem)?</p>
+            <input type="image" name="pergunta5" alt="Anexar" width="48" height="48">
+
+            <p>Que cor mais caracteriza Roma?</p>
+            <input type="color" name="pergunta6">
+
+            <p>Qual a população total de Roma?</p>
+            <input type="number" name="pergunta7" size="10">
+
+            <p>Qual o seu interesse por Roma após a visita deste site?</p>
+            <input type="range" min="0" max="100" value="0" name="pergunta8"
+                   oninput="porcentagem.value = parseInt(pergunta8.value)">
+            <output name="porcentagem" for="pergunta8">0</output>
+            %
+
+            <p>Qual destes imperadores não foi imperador Romano?</p>
+            <select name="imperadores">
+                <option>Marco Coceio Nerva</option>
+                <option>Augusto</option>
+                <option>Lúcio Vero</option>
+                <option>Shun</option>
+            </select>
+
+            <p>Roma pertence a que país?</p>
+            <input list="países" name="país">
+            <datalist id="países">
+                <option value="Alemanha">
+                <option value="Portugal">
+                <option value="Itália">
+                <option value="Brasil">
+            </datalist>
+            <br>
+
+            <textarea name="comentario" rows="10" cols="40">Escreva um comentário e ajude-nos!
+        </textarea>
+        </fieldset>
+        <fieldset id="quiz fieldset2">
+            <legend>Info</legend>
+            <p>Nome: <input type="text" name="nome"></p>
+            <p>Apelido:<input type="text" name="apelido"></p>
+            <p>Email:<input type="email" name="email"></p>
+        </fieldset>
+        <input type="submit">
+    </form>
+</main>
+</body>
+<footer>Rodrigo Eira/ a22007060/ Universidade Lusófona/ 2ºano</footer>
+</html>

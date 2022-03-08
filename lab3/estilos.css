@@ -1,0 +1,68 @@
+*{
+    font-family: 'Hubballi', cursive;
+}
+body{
+    background-color: beige;
+}
+h1{
+    color: firebrick;
+    font-size: 32pt;
+}
+.origem{
+    color:darkmagenta;
+    font-family: DengXian;
+}
+.formatacao{
+    color: darkgoldenrod;
+    font-family: "Candara Light";
+}
+#linksindex{
+    background-color: orange;
+}
+
+a:link{color: antiquewhite}
+a:visited{color: brown}
+a:hover{color: goldenrod}
+a:active{color: rosybrown}
+
+#quiz\ fieldset1 {
+    background-color: indianred;
+}
+#quiz\ fieldset2 {
+    background-color: chocolate;
+}
+div > table{
+    background-color: darksalmon;
+}
+div ~ table{
+    background-color: orange;
+}
+div + table{
+    color: bisque;
+}
+div, table{
+    color: chocolate;
+}
+
+input{
+    display: block;
+}
+
+#poematexto{
+    background-color: peru;
+}
+
+[target="_blank"]{
+    border: 10px solid chocolate;
+}
+
+#informacao\ principal::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+#informacao\ principal::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
