@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab2">
-      <change afterPath="$PROJECT_DIR$/lab3/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/html5-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/Flag-of-Italy.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/Trevi-Brunnen_abends_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/Trevi-Brunnen_abends_pequena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/roma_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/roma_lago_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/roma_lago_pequeno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/roma_pequena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/vista-cidade-de-Roma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/images/wordcloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/local.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/multimedia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/quizz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/info.html" afterDir="false" />
-    </list>
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +101,7 @@
       <workItem from="1646211015109" duration="4167000" />
       <workItem from="1646244691499" duration="6391000" />
       <workItem from="1646314761283" duration="10140000" />
-      <workItem from="1646759644379" duration="5832000" />
+      <workItem from="1646759644379" duration="6393000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -291,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646165695825</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lab3">
+      <created>1646776893108</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1646776893108</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +302,7 @@
     <MESSAGE value="incluidos ficheiros para Heroku, Site report.html" />
     <MESSAGE value="criei a pagina report.html" />
     <MESSAGE value="lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
 </project>
