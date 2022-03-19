@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab3" />
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab3">
+      <change afterPath="$PROJECT_DIR$/lab4/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/bruxelas.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/budapeste.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/lisboa.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/londres.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/milao.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/paris.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/praga.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/reykiavik.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/roma.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/varsovia.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/viena.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/quizz.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +120,10 @@
       <workItem from="1646244691499" duration="6391000" />
       <workItem from="1646314761283" duration="10140000" />
       <workItem from="1646759644379" duration="6393000" />
+      <workItem from="1647335563901" duration="639000" />
+      <workItem from="1647420330751" duration="1883000" />
+      <workItem from="1647616919635" duration="8587000" />
+      <workItem from="1647685101171" duration="16889000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -278,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646776893108</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lab3">
+      <created>1647335672136</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1647335672136</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

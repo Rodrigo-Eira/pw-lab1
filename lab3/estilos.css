@@ -25,6 +25,10 @@ a:visited{color: brown}
 a:hover{color: goldenrod}
 a:active{color: rosybrown}
 
+#quiz\ fieldset0{
+    background-color: peru;
+}
+
 #quiz\ fieldset1 {
     background-color: indianred;
 }

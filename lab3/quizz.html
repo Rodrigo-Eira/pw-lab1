@@ -34,71 +34,73 @@
     <h3>Quizz</h3>
     <p>Este Quizz tem como objetivo testar os conhecimentos do utilizador sobre a cidade de Roma</p>
     <form method="POST" action="mailto: baiaeira@gmail.com" enctype="multipart/form-data">
-        <fieldset>Quizz sobre Roma</fieldset>
-        <fieldset  id="quiz fieldset1">
-            <legend>Perguntas</legend>
-            <p>A que continente pertence Roma?</p>
-            <input type="text" name="pergunta1" autocomplete="off" placeholder="África/Europa/América do Norte/Ásia..."
-                   maxlength="20">
+        <fieldset id="quiz fieldset0"><b>Quizz sobre Roma</b>
+            <fieldset id="quiz fieldset1">
+                <legend><b>Perguntas</b></legend>
+                <p>A que continente pertence Roma?</p>
+                <input type="text" name="pergunta1" autocomplete="off"
+                       placeholder="África/Europa/América do Norte/Ásia..."
+                       maxlength="20">
 
-            <p>Atualmente, qual o idioma mais dominante em Roma?</p>
-            <input type="radio" name="pergunta2"><label>Italiano</label>
-            <input type="radio" name="pergunta2"><label>Francês</label>
-            <input type="radio" name="pergunta2"><label>Mandarim</label>
-            <input type="radio" name="pergunta2"><label>Português</label>
+                <p>Atualmente, qual o idioma mais dominante em Roma?</p>
+                <label>Italiano</label><input type="radio" name="pergunta2">
+                <label>Francês</label><input type="radio" name="pergunta2">
+                <label>Mandarim</label><input type="radio" name="pergunta2">
+                <label>Português</label><input type="radio" name="pergunta2">
 
-            <p>Quais destes rios atravessam Roma?</p>
-            <input type="checkbox" name="pergunta3"><label>Rio Aniene</label>
-            <input type="checkbox" name="pergunta3"><label>Rio Nera</label>
-            <input type="checkbox" name="pergunta3"><label>Rio Tibre</label>
-            <input type="checkbox" name="pergunta3"><label>Rio de Roma</label>
+                <p>Quais destes rios atravessam Roma?</p>
+                <label>Rio Aniene</label><input type="checkbox" name="pergunta3">
+                <label>Rio Nera</label><input type="checkbox" name="pergunta3">
+                <label>Rio Tibre</label><input type="checkbox" name="pergunta3">
+                <label>Rio de Roma</label><input type="checkbox" name="pergunta3">
 
-            <p>Qual a data de nascimento do presidente de Roma?</p>
-            <input type="date" name="pergunta4" max="00/00/0000">
+                <p>Qual a data de nascimento do presidente de Roma?</p>
+                <input type="date" name="pergunta4" max="00/00/0000">
 
-            <p>Qual é a bandeira de Roma (anexe uma imagem)?</p>
-            <input type="image" name="pergunta5" alt="Anexar" width="48" height="48">
+                <p>Qual é a bandeira de Roma (anexe uma imagem)?</p>
+                <input type="image" name="pergunta5" alt="Anexar" width="48" height="48">
 
-            <p>Que cor mais caracteriza Roma?</p>
-            <input type="color" name="pergunta6">
+                <p>Que cor mais caracteriza Roma?</p>
+                <input type="color" name="pergunta6">
 
-            <p>Qual a população total de Roma?</p>
-            <input type="number" name="pergunta7" size="10">
+                <p>Qual a população total de Roma?</p>
+                <input type="number" name="pergunta7" size="10">
 
-            <p>Qual o seu interesse por Roma após a visita deste site?</p>
-            <input type="range" min="0" max="100" value="0" name="pergunta8"
-                   oninput="porcentagem.value = parseInt(pergunta8.value)">
-            <output name="porcentagem" for="pergunta8">0</output>
-            %
+                <p>Qual o seu interesse por Roma após a visita deste site?</p>
+                <input type="range" min="0" max="100" value="0" name="pergunta8"
+                       oninput="porcentagem.value = parseInt(pergunta8.value)">
+                <output name="porcentagem" for="pergunta8">0</output>
+                %
 
-            <p>Qual destes imperadores não foi imperador Romano?</p>
-            <select name="imperadores">
-                <option>Marco Coceio Nerva</option>
-                <option>Augusto</option>
-                <option>Lúcio Vero</option>
-                <option>Shun</option>
-            </select>
+                <p>Qual destes imperadores não foi imperador Romano?</p>
+                <select name="imperadores">
+                    <option>Marco Coceio Nerva</option>
+                    <option>Augusto</option>
+                    <option>Lúcio Vero</option>
+                    <option>Shun</option>
+                </select>
 
-            <p>Roma pertence a que país?</p>
-            <input list="países" name="país">
-            <datalist id="países">
-                <option value="Alemanha">
-                <option value="Portugal">
-                <option value="Itália">
-                <option value="Brasil">
-            </datalist>
-            <br>
+                <p>Roma pertence a que país?</p>
+                <input list="países" name="país">
+                <datalist id="países">
+                    <option value="Alemanha">
+                    <option value="Portugal">
+                    <option value="Itália">
+                    <option value="Brasil">
+                </datalist>
+                <br>
 
-            <textarea name="comentario" rows="10" cols="40">Escreva um comentário e ajude-nos!
+                <textarea name="comentario" rows="10" cols="40">Escreva um comentário e ajude-nos!
         </textarea>
+            </fieldset>
+            <fieldset id="quiz fieldset2">
+                <legend><b>Info</b></legend>
+                <p>Nome: <input type="text" name="nome"></p>
+                <p>Apelido:<input type="text" name="apelido"></p>
+                <p>Email:<input type="email" name="email"></p>
+                <input type="submit">
+            </fieldset>
         </fieldset>
-        <fieldset id="quiz fieldset2">
-            <legend>Info</legend>
-            <p>Nome: <input type="text" name="nome"></p>
-            <p>Apelido:<input type="text" name="apelido"></p>
-            <p>Email:<input type="email" name="email"></p>
-        </fieldset>
-        <input type="submit">
     </form>
 </main>
 </body>

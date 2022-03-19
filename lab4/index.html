@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+<style>
+    @media only screen and (min-width: 901px) {
+        .destinos {
+            background-color: aquamarine;
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+            'porto madeira funchal eletrico eletrico'
+            'lisboa lisboa saomiguel eletrico eletrico';
+            grid-gap: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        .destinos {
+            background-color: aquamarine;
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 1fr 1fr;
+            grid-template-areas:
+            'porto madeira'
+            'funchal saomiguel '
+            'eletrico eletrico'
+            'eletrico eletrico'
+            'lisboa lisboa';
+            grid-gap: 10px;
+        }
+    }
+
+    * {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .capitais {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .capitais > div {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px;
+        margin: 10px;
+    }
+
+    .capitais img {
+        border-radius: 20px 0 0 20px;
+        height: 100%;
+    }
+
+    .capitais div div:last-child {
+        width: 150px;
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 0 20px 20px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu div {
+        display: flex;
+    }
+
+    .menu a {
+        padding: 20px;
+        text-decoration: none;
+        text-decoration-color: aqua;
+    }
+
+    .menu a:last-child {
+        margin-left: auto;
+    }
+
+    .cabecalho {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+
+    }
+
+    .dicas {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .dicas > div {
+        width: 600px;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: aquamarine;
+        align-content: baseline;
+    }
+
+    .dicas h1 {
+        font-size: 25px;
+    }
+
+    .destinos div {
+        padding: 10px 20px;
+        justify-content: space-around;
+        box-shadow: 5px 5px 15px;
+        margin: 10px;
+    }
+
+    .destinos p {
+        color: white;
+        font-family: 'League Gothic', sans-serif;
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+
+
+    .porto {
+        background-image: url("images/porto.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        grid-area: porto;
+        position: relative;
+    }
+
+    .lisboa {
+        background-image: url("images/lisboa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        grid-area: lisboa;
+    }
+
+    .madeira {
+        background-image: url("images/madeira.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        grid-area: madeira;
+    }
+
+    .funchal {
+        background-image: url("images/funchal.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        grid-area: funchal;
+    }
+
+    .saomiguel {
+        background-image: url("images/saomiguel.avif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        grid-area: saomiguel;
+    }
+
+    .eletrico {
+        grid-area: eletrico;
+        background-color: white;
+    }
+
+    .eletrico div {
+        padding: 10px 20px;
+        justify-content: space-around;
+        box-shadow: none;
+        margin: unset;
+    }
+
+    .eletrico p {
+        background-color: white;
+        color: black;
+    }
+
+    .eletrico img {
+        max-width: 100%;
+        max-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    a:hover {
+        color: darkgray;
+        font-weight: bold
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+</style>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+<nav class="menu">
+    <div>
+        <a>Cidades Europeias</a>
+        <a>Dicas para viajar</a>
+        <a>Destinos de sonho</a>
+        <a href="../index.html">Home</a>
+    </div>
+</nav>
+
+<div class="cabecalho">
+    <div><h1>Viaje sem problemas</h1></div>
+</div>
+
+<h1>Capitais europeias</h1>
+<div class="capitais">
+    <div>
+        <div><img src="images/bruxelas.avif"></div>
+        <div><p>Bruxelas</p></div>
+    </div>
+    <div>
+        <div><img src="images/budapeste.avif"></div>
+        <div><p>Budapeste</p></div>
+    </div>
+    <div>
+        <div><img src="images/lisboa.avif"></div>
+        <div><p>Lisboa</p></div>
+    </div>
+    <div>
+        <div><img src="images/londres.avif"></div>
+        <div><p>Londres</p></div>
+    </div>
+    <div>
+        <div><img src="images/milao.avif"></div>
+        <div><p>Milão</p></div>
+    </div>
+    <div>
+        <div><img src="images/paris.avif"></div>
+        <div><p>Paris</p></div>
+    </div>
+    <div>
+        <div><img src="images/praga.avif"></div>
+        <div><p>Praga</p></div>
+    </div>
+    <div>
+        <div><img src="images/reykiavik.avif"></div>
+        <div><p>Reykiavik</p></div>
+    </div>
+    <div>
+        <div><img src="images/roma.avif"></div>
+        <div><p>Roma</p></div>
+    </div>
+    <div>
+        <div><img src="images/varsovia.avif"></div>
+        <div><p>Varsóvia</p></div>
+    </div>
+    <div>
+        <div><img src="images/viena.avif"></div>
+        <div><p>Viena</p></div>
+    </div>
+</div>
+
+<h1>Dicas para viajantes</h1>
+<div class="dicas">
+    <div>
+        <div><h1>Viaje Devagar</h1>
+            <p>Eu sempre fui fast traveller e levei mais de 1 ano e meio durante a minha viagem para entender os
+                benefícios de viajar devagar. Viajar não é uma competição! Não é o número de países e cidades que
+                você visita que vai fazer a diferença, mas sim como você vive cada dia da sua experiência.</p></div>
+    </div>
+    <div>
+        <div><h1>Oiça o seu coração</h1>
+            <p>Pela primeira vez na sua vida você vai ser totalmente livre. Não deixe o seu planejamento te prender.
+                Planos servem apenas como um norte e não como regras.</p></div>
+    </div>
+    <div>
+        <div><h1>Não tenha medo de novas experiências</h1>
+            <p>Experimente de tudo que passa pelo seu caminho, mesmo aquelas coisas que te tiram da sua zona de
+                conforto.
+                Quanto mais você experimentar maior será seu aprendizado, você vai eliminar muitos preconceitos e mais
+                descobertas vai fazer pra sua vida.</p></div>
+    </div>
+    <div>
+        <div><h1>Passe mais tempo em cada lugar</h1>
+            <p>Ficar pingando de cidade em cidade pode parecer uma ótima ideia quando você tá planejando o roteiro e vê
+                vários lugares legais que ficam bem pertinho no mapa. Na prática, no entanto, viagens com muitos
+                destinos
+                tendem a ser cansativas e mais caras.</p></div>
+    </div>
+    <div>
+        <div><h1>Pesquise bastante</h1>
+            <p>Conhecimento é poder. Quanto mais você souber sobre o destino, mais vai poder otimizar seu tempo e
+                dinheiro
+                quando chegar lá.</p></div>
+    </div>
+    <div>
+        <div><h1>Escolha destinos baratos</h1>
+            <p>É possível sim viajar com pouco dinheiro em países como Suíça e Dinamarca, mas é bem mais difícil do que
+                na
+                Bósnia, na Bolívia, no Vietnã ou na Índia, por exemplo.</p></div>
+    </div>
+    <div>
+        <div><h1>Tenha atenção com as refeições</h1>
+            <p>Uma dica é evitar lugares nas ruas principais de regiões mais turísticas. Se jogue nas barraquinhas de
+                rua,
+                mercados públicos e feirinhas (onde muitas vezes rola tanta degustação que você nem precisa comprar
+                nada).</p></div>
+    </div>
+    <div>
+        <div><h1>Viage com pouca bagagem</h1>
+            <p>Pode ser sincero: você sempre leva um monte de roupas que acaba nem tirando da mala, né? Viajar com
+                pouca
+                bagagem pode ser um desafio, mas com o tempo fica mais fácil. </p></div>
+    </div>
+</div>
+
+<h1>Destinos de sonho</h1>
+<div class="destinos">
+    <div class="porto">
+        <p><b>Porto</b></p>
+        <p><b>Venha visitar a cidade do Porto</b></p>
+    </div>
+    <div class="lisboa">
+        <p><b>Lisboa</b></p>
+        <p><b>Venha visitar a cidade de Lisboa</b></p>
+    </div>
+    <div class="madeira">
+        <p><b>Madeira</b></p>
+        <p><b>Venha visitar a Madeira</b></p>
+    </div>
+    <div class="funchal">
+        <p><b>Funchal</b></p>
+        <p><b>Venha visitar o Funchal</b></p>
+    </div>
+    <div class="saomiguel">
+        <p><b>Ilha de São Miguel</b></p>
+        <p><b>Visite a Ilha de São Miguel</b></p>
+    </div>
+    <div class="eletrico">
+        <div><img src="images/eletrico.jpg"></div>
+        <div>
+            <h1><b>Viage sem gastar muito</b></h1>
+            <p><b>Veja os melhores preços aqui e não perca a viagem dos seus sonhos!</b></p>
+        </div>
+        <div>
+            <button type="button" class="buton1">Ver mais</button>
+        </div>
+    </div>
+</div>
+</body>
