@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab3">
-      <change afterPath="$PROJECT_DIR$/lab4/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/bruxelas.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/budapeste.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/lisboa.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/londres.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/milao.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/paris.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/praga.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/reykiavik.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/roma.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/varsovia.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/images/viena.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/quizz.html" afterDir="false" />
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lab4/images/eletrico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/funchal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/lisboa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/madeira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/porto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/images/saomiguel.avif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,7 @@
       <workItem from="1647335563901" duration="639000" />
       <workItem from="1647420330751" duration="1883000" />
       <workItem from="1647616919635" duration="8587000" />
-      <workItem from="1647685101171" duration="16889000" />
+      <workItem from="1647685101171" duration="17185000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -307,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647335672136</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="lab4">
+      <created>1647706897377</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1647706897377</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +328,7 @@
     <MESSAGE value="criei a pagina report.html" />
     <MESSAGE value="lab2" />
     <MESSAGE value="lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
   </component>
 </project>
