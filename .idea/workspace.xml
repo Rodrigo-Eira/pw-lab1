@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lab4/images/cheapBanner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/CSS/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab4\CSS" />
       <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab2\images" />
     </key>
   </component>
@@ -110,7 +113,8 @@
       <workItem from="1647616919635" duration="8587000" />
       <workItem from="1647685101171" duration="17185000" />
       <workItem from="1647707026478" duration="235000" />
-      <workItem from="1647947720889" duration="360000" />
+      <workItem from="1647947720889" duration="1017000" />
+      <workItem from="1648023887090" duration="3507000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -308,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647707075400</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="lab4">
+      <created>1647948141753</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1647948141753</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
