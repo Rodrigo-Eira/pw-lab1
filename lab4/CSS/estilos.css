@@ -1,212 +1,237 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 @media only screen and (min-width: 901px) {
-        .destinos {
-            background-color: aquamarine;
-            display: grid;
-            height: 100vh;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas:
+    .destinos {
+        background-color: aquamarine;
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
             'porto madeira funchal eletrico eletrico'
             'lisboa lisboa saomiguel eletrico eletrico';
-            grid-gap: 10px;
-        }
+        grid-gap: 10px;
     }
+}
 
-    @media only screen and (max-width: 900px) {
-        .destinos {
-            background-color: aquamarine;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-auto-rows: 1fr 1fr;
-            grid-template-areas:
+@media only screen and (max-width: 900px) {
+    .destinos {
+        background-color: aquamarine;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr;
+        grid-template-areas:
             'porto madeira'
             'funchal saomiguel '
             'lisboa lisboa'
             'eletrico eletrico'
             'eletrico eletrico';
-            grid-gap: 10px;
-        }
+        grid-gap: 10px;
     }
+}
 
-    * {
-        font-family: 'Titillium Web', sans-serif;
-    }
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
 
-    .capitais {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
+.capitais {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
-    .capitais > div {
-        display: flex;
-        justify-content: space-around;
-        border-radius: 20px;
-        box-shadow: 5px 5px 15px;
-        margin: 10px;
-    }
+.capitais > div {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+    margin: 10px;
+}
 
-    .capitais img {
-        border-radius: 20px 0 0 20px;
-        height: 100%;
-    }
+.capitais img {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
 
-    .capitais div div:last-child {
-        width: 150px;
-        background-color: aliceblue;
-        padding: 20px;
-        border-radius: 0 20px 20px 0;
-        display: flex;
-        align-items: center;
-    }
+.capitais div div:last-child {
+    width: 150px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+}
 
-    .menu div {
-        display: flex;
-    }
+.menu div {
+    display: flex;
+}
 
-    .menu a {
-        padding: 20px;
-        text-decoration: none;
-        text-decoration-color: aqua;
-    }
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    text-decoration-color: aqua;
+}
 
-    .menu a:last-child {
-        margin-left: auto;
-    }
+.menu a:last-child {
+    margin-left: auto;
+}
 
-    .cabecalho {
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        background-image: url("../images/cheapBanner.jpg");
-    }
+.cabecalho {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-image: url("../images/cheapBanner.jpg");
+}
 
-    .cabecalho h1{
-        color: white;
-    }
+.cabecalho h1 {
+    color: white;
+    align-items: center;
+}
 
-    .dicas {
-        display: flex;
-        flex-flow: row wrap;
-    }
+.dicas {
+    display: flex;
+    flex-flow: row wrap;
+}
 
-    .dicas > div {
-        width: 388px;
-        height: 288px;
-        display: flex;
-        justify-content: space-around;
-        border-radius: 20px;
-        box-shadow: 5px 5px 15px;
-        margin: 10px;
-        padding: 10px 20px;
-        background-color: aquamarine;
-        align-content: baseline;
-    }
+.dicas > div {
+    width: 388px;
+    height: 288px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    align-content: baseline;
+}
 
-    .dicas h1 {
-        font-size: 25px;
-    }
+.dicas h1 {
+    font-size: 25px;
+}
 
-    .destinos div {
-        padding: 10px 20px;
-        justify-content: space-around;
-        box-shadow: 5px 5px 15px;
-        margin: 10px;
-    }
+.destinos div {
+    padding: 10px 20px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px;
+    margin: 10px;
+    opacity: 97%;
+    filter: brightness(88%);
+}
 
-    .destinos p {
-        color: white;
-        font-family: 'League Gothic', sans-serif;
-        position: relative;
-        top: -10px;
-        left: -10px;
-    }
+.destinos h2 {
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+}
 
+.destinos h3 {
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    position: absolute;
+    bottom: 12px;
+    left: 5px;
+    font-size: 10px;
+}
 
-    .porto {
-        background-image: url("../images/porto.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        grid-area: porto;
-        position: relative;
-    }
+.destinos p {
+    color: white;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
 
-    .lisboa {
-        background-image: url("../images/lisboa.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        grid-area: lisboa;
-    }
+.porto {
+    background-image: url("../images/porto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: porto;
+    position: relative;
+}
 
-    .madeira {
-        background-image: url("../images/madeira.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        grid-area: madeira;
-    }
+.lisboa {
+    background-image: url("../images/lisboa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+}
 
-    .funchal {
-        background-image: url("../images/funchal.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        grid-area: funchal;
-    }
+.madeira {
+    background-image: url("../images/madeira.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: madeira;
+    position: relative;
+}
 
-    .saomiguel {
-        background-image: url("../images/saomiguel.avif");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        grid-area: saomiguel;
-    }
+.funchal {
+    background-image: url("../images/funchal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: funchal;
+    position: relative;
+}
 
-    .eletrico {
-        grid-area: eletrico;
-        background-color: white;
-        height: fit-content;
-    }
+.saomiguel {
+    background-image: url("../images/saomiguel.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: saomiguel;
+    position: relative;
+}
 
-    .eletrico div {
-        padding: 10px 20px;
-        justify-content: space-around;
-        box-shadow: none;
-        margin: unset;
-    }
+.eletrico {
+    grid-area: eletrico;
+    background-color: white;
+    height: fit-content;
+}
 
-    .eletrico p {
-        background-color: white;
-        color: black;
-    }
+.eletrico div {
+    padding: 10px 20px;
+    justify-content: space-around;
+    box-shadow: none;
+    margin: unset;
+}
 
-    .eletrico img {
-        max-width: 100%;
-        height: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
+.eletrico p {
+    background-color: white;
+    color: black;
+}
 
-    a:hover {
-        color: darkgray;
-        font-weight: bold
-    }
+.eletrico img {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
-    .button {
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-    }
+a:hover {
+    color: darkgray;
+    font-weight: bold
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
