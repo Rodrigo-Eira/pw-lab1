@@ -270,3 +270,226 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .column {
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.parisstreet {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.parisstreet:hover .overlay {
+    opacity: 0.7;
+}
+
+.italy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.italy:hover .overlay {
+    opacity: 0.7;
+}
+
+.louvre {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.louvre:hover .overlay {
+    opacity: 0.7;
+}
+
+.dinner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.dinner:hover .overlay {
+    opacity: 0.7;
+}
+
+.camping {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.camping:hover .overlay {
+    opacity: 0.7;
+}
+
+.NewYork {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.NewYork:hover .overlay {
+    opacity: 0.7;
+}
+
+.trail {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.trail:hover .overlay {
+    opacity: 0.7;
+}
+
+.night {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.night:hover .overlay {
+    opacity: 0.7;
+}
+
+.jungle {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.jungle:hover .overlay {
+    opacity: 0.7;
+}
+
+.beach {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.beach:hover .overlay {
+    opacity: 0.7;
+}
+
+.santorini {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.santorini:hover .overlay {
+    opacity: 0.7;
+}
+
+.boreal {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: lisboa;
+    position: relative;
+    width: 100%;
+}
+
+.boreal:hover .overlay {
+    opacity: 0.7;
+}
