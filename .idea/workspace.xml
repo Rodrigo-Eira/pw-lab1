@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab4">
-      <change afterPath="$PROJECT_DIR$/lab5/CSS/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/bruxelas.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/budapeste.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/cheapBanner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/eletrico.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/funchal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/hero.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/lisboa.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/lisboa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/londres.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/madeira.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/milao.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/paris.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/porto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/praga.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/reykiavik.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/roma.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/saomiguel.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/varsovia.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/images/viena.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/video/video.mp4" afterDir="false" />
+    <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +125,8 @@
       <workItem from="1648548116153" duration="1061000" />
       <workItem from="1648549205799" duration="3483000" />
       <workItem from="1651510977027" duration="172000" />
+      <workItem from="1654682187628" duration="43000" />
+      <workItem from="1654682490487" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -365,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648057106354</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="lab5">
+      <created>1654682215567</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1654682215567</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +378,7 @@
     <MESSAGE value="lab2" />
     <MESSAGE value="lab3" />
     <MESSAGE value="lab4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
+    <MESSAGE value="lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
   </component>
 </project>
