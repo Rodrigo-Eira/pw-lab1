@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25dd4378-b5dc-4267-a12f-2e1901f93273" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lab5/CSS/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/bruxelas.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/budapeste.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/cheapBanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/eletrico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/funchal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/hero.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/lisboa.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/lisboa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/londres.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/madeira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/milao.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/paris.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/porto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/praga.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/reykiavik.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/roma.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/saomiguel.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/varsovia.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/images/viena.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/video/video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/CSS/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/CSS/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +68,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab5" />
+    <property name="last_opened_file_path" value="C:/Exercicios Python/lab8" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab5\images" />
+      <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab5\video" />
       <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab4\CSS" />
       <recent name="E:\2ºsemestre\Programação Web\Praticas\pw-labs-rodrigoeira-a22007060\lab2\images" />
     </key>
@@ -118,7 +140,13 @@
       <workItem from="1647707026478" duration="235000" />
       <workItem from="1647947720889" duration="1017000" />
       <workItem from="1648023887090" duration="6410000" />
-      <workItem from="1648054174749" duration="2904000" />
+      <workItem from="1648054174749" duration="2917000" />
+      <workItem from="1648057214086" duration="2521000" />
+      <workItem from="1648488661029" duration="1193000" />
+      <workItem from="1648544863417" duration="3206000" />
+      <workItem from="1648548116153" duration="1061000" />
+      <workItem from="1648549205799" duration="3483000" />
+      <workItem from="1651510977027" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina">
       <created>1645002763011</created>
@@ -330,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648027509436</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="lab4">
+      <created>1648057106354</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1648057106354</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
